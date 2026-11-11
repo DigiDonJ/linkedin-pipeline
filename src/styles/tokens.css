@@ -1,0 +1,60 @@
+/* DRJ Brand System — generated from tokens.json */
+:root, [data-theme="dark"] {
+  --drj-navy: #0b1f3a;
+  --drj-navy-deep: #081729;
+  --drj-navy-raised: #10294a;
+  --drj-teal: #00a6a6;
+  --drj-teal-hover: #00baba;
+  --drj-gold: #f2b134;
+  --drj-graphite: #2f3542;
+  --drj-platinum: #d7dce3;
+  --drj-white: #ffffff;
+  --drj-black: #000000;
+  --drj-future-blue: #2d7ff9;
+  --drj-surface: var(--drj-navy);
+  --drj-surface-alt: var(--drj-navy-deep);
+  --drj-surface-raised: var(--drj-navy-raised);
+  --drj-text: rgba(255,255,255,0.85);
+  --drj-text-dim: rgba(255,255,255,0.6);
+  --drj-text-strong: var(--drj-white);
+  --drj-accent: var(--drj-teal);
+  --drj-figure: var(--drj-gold);
+  --drj-line: rgba(215,220,227,0.14);
+  --drj-line-strong: rgba(255,255,255,0.35);
+  --drj-shadow-photo: 14px 14px 0 #081729;
+}
+:root {
+  --drj-space-1: 4px;
+  --drj-space-2: 8px;
+  --drj-space-3: 12px;
+  --drj-space-4: 14px;
+  --drj-space-5: 22px;
+  --drj-space-6: 26px;
+  --drj-space-7: 32px;
+  --drj-space-8: 56px;
+  --drj-radius-sm: 4px;
+  --drj-radius-md: 6px;
+  --drj-radius-lg: 8px;
+  --drj-max: 1120px;
+  --drj-gutter: 24px;
+  --drj-section-y: 100px;
+  --drj-section-y-tight: 72px;
+  --drj-text-body: 17px;
+  --drj-leading-body: 1.65;
+  --drj-leading-tight: 1.15;
+  --font-sans: "Inter", "Inter Latin Ext", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.display { font-family: var(--font-sans); font-size: 4.2rem; line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
+.heading { font-family: var(--font-sans); font-size: 2.5rem; line-height: 1.15; font-weight: 700; letter-spacing: -0.01em; }
+.subheading { font-family: var(--font-sans); font-size: 1.15rem; line-height: 1.15; font-weight: 700; }
+.thesis { font-family: var(--font-sans); font-size: 2.1rem; line-height: 1.3; font-weight: 700; }
+.body { font-family: var(--font-sans); font-size: 17px; line-height: 1.65; font-weight: 400; }
+.standfirst { font-family: var(--font-sans); font-size: 1.15rem; line-height: 1.65; font-weight: 400; }
+.label { font-family: var(--font-sans); font-size: 0.9rem; line-height: 1.55; font-weight: 400; }
+.small { font-family: var(--font-sans); font-size: 0.85rem; line-height: 1.65; font-weight: 400; }
+.eyebrow { font-family: var(--font-sans); font-size: 0.8rem; line-height: 1.65; font-weight: 600; letter-spacing: 0.08em; }
+.kicker { font-family: var(--font-sans); font-size: 0.85rem; line-height: 1.65; font-weight: 700; letter-spacing: 0.08em; }
+.button { font-family: var(--font-sans); font-size: 0.95rem; line-height: 1.2; font-weight: 600; }
+.stat-figure { font-family: var(--font-sans); font-size: 2.1rem; line-height: 1.65; font-weight: 800; letter-spacing: -0.01em; }
+@font-face { font-family: "Inter"; src: url("fonts/inter-latin.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter Latin Ext"; src: url("fonts/inter-latin-ext.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
